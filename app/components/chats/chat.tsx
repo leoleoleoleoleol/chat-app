@@ -1,5 +1,5 @@
 import { Database } from "@/types/supabasetype"
-import DateFormatter from "@/components/date"
+import DateFormatter from "@/app/components/date"
 
 type Props = {
   chatData: Database["public"]["Tables"]["Chats"]["Row"],

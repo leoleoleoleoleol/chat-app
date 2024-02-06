@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import { supabase } from "@/utils/supabase/supabase"
 import { v4 } from "uuid"
 import { useSearchParams } from "next/navigation"
-import ChatUI from "@/components/chats/chat"
+import ChatUI from "@/app/components/chats/chat"
 
 export default function Chats() {
   const searchParams = useSearchParams()
