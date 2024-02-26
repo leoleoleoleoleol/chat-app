@@ -1,6 +1,7 @@
 import { Database } from "@/types/supabasetype"
 import DateFormatter from "@/app/components/date"
 
+// propsの型定義
 type Props = {
   chatData: Database["public"]["Tables"]["Chats"]["Row"],
   index: number
